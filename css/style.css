@@ -1,0 +1,191 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.warning {
+    color: firebrick;
+}
+
+.whole {
+    background-image: url("../Pixi/images/town5.png");
+    background-color: #cccccc;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#playframe{
+}
+#leaderboard{
+	max-height:720px;
+	min-height:90vh;
+	height:100%;
+	color: white;
+	padding-top: 5vh;	
+
+}
+#leaderboard2container{
+	padding-left:5vw;
+	padding-right:5vw;
+	color: white;
+	text-align: center;
+
+
+}
+#leaderboard2 {
+	
+	min-height:40vh;
+	text-align: left;
+	
+}
+#main{
+	
+	margin: 0 auto;
+	padding-left:5vw;
+	padding-right:5vw;
+}
+.whiteText{
+	color: white;
+
+}
+
+
+
+#playframe{
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100vh;
+	min-height:90vh;
+	height:auto;
+	
+	
+}
+#game{
+	
+	margin: 0 auto;
+	padding:0;
+	
+}
+
+
+.responsive-image{
+	
+    width: 100%;
+    background-size: 100% 100%;
+	
+} 
+
+/* Retina display */
+@media screen and (min-width: 1024px){
+    .responsive-image{
+        background-image: url('../Pixi/images/town5background.png');
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .responsive-image{
+        background-image: url('../Pixi/images/town5background.png');
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .responsive-image{
+        background-image: url('../Pixi/images/town5background.png');
+    }
+	#main{
+		padding-left:0vw;
+		padding-right:0vw;
+	}
+		
+		
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .responsive-image{
+        background-image: url('../Pixi/images/town5background.png');
+    }
+	#main{
+		padding-left:0vw;
+		padding-right:0vw;
+	}
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .responsive-image{
+        background-image: url('../Pixi/images/town5background.png');
+    }
+	#main{
+		padding-left:0vw;
+		padding-right:0vw;
+	}
+} 
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+#a1{
+	width:100%;
+}
+#a2{
+	width:100%;
+}
+
+
+
